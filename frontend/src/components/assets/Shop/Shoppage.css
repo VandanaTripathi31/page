@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  /* Page Container */
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Heading Style */
+  .heading {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Product Grid */
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Product Card */
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Product Image */
+  .card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  /* Product Name */
+  .card h2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #444;
+    margin: 10px 0;
+    line-height: 1.4;
+  }
+  
+  /* Product Price */
+  .card .price {
+    font-size: 14px;
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  .card .price .original-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-right: 5px;
+  }
+  
+  /* Product Rating */
+  .card .rating {
+    margin-top: 5px;
+    color: #ffcc00;
+    font-size: 14px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .grid {
+      gap: 15px;
+    }
+  
+    .card {
+      width: 180px;
+    }
+  
+    .heading {
+      font-size: 20px;
+    }
+  }
+  

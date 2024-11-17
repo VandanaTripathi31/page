@@ -1,0 +1,11 @@
+.footer {
+    background-color: #ffd6a5;
+    padding: 10px;
+    color: #5d4037;
+    text-align: center;
+    position: relative;
+    bottom: 0; /* Stick to the bottom of the viewport */
+    width: 100%; /* Ensure the footer spans the full width */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    font-size: 14px; 
+}
